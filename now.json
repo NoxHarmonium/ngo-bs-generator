@@ -7,5 +7,6 @@
       "src": "/_next/static/(?:[^/]+/pages|chunks|runtime)/.+",
       "headers": { "cache-control": "immutable" }
     }
-  ]
+  ],
+  "alias": "ngobsgenerator.ml"
 }
