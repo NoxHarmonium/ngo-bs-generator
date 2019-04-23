@@ -8,5 +8,5 @@
       "headers": { "cache-control": "immutable" }
     }
   ],
-  "alias": "ngobsgenerator.ml"
+  "alias": ["www.ngobsgenerator.ml", "ngobsgenerator.ml"]
 }
