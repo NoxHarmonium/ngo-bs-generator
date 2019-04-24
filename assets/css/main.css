@@ -109,7 +109,7 @@ section {
 
 body {
   line-height: 1;
-  background: url(images/plantation.jpg) no-repeat center center fixed;
+  background: #2e3842 url(images/plantation.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
