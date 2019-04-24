@@ -1,4 +1,5 @@
 import { verbs, adjectives, nouns } from "../modules/words";
+import { Fonts } from "../modules/fonts";
 import _ from "lodash";
 import React from "react";
 import Head from "next/head";
@@ -13,6 +14,10 @@ class Home extends React.Component {
     this.state = {
       bs: this.generateBsString()
     };
+  }
+
+  componentDidMount() {
+    Fonts();
   }
 
   generateBsString() {

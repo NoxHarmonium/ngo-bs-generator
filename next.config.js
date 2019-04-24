@@ -8,7 +8,14 @@ module.exports = withCss(
         use: {
           loader: "url-loader",
           options: {
-            limit: 100000
+            limit: 100000,
+            fallback: {
+              loader: "file-loader",
+              options: {
+                publicPath: "/_next/static/images",
+                outputPath: "static/images"
+              }
+            }
           }
         }
       });
